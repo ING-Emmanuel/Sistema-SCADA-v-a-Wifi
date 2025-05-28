@@ -1,0 +1,117 @@
+*{
+	/*padding: 1px; 
+	margin: 10px;*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+	background-color: #00FF2A;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+
+h2{
+	font-family: 'arial', cursive;
+	padding: 10px 15px;
+	text-align-last: center; 
+	margin: auto;
+	vertical-align: middle;
+	margin-top: 10px;
+	word-spacing: 10px;
+}
+
+h3.alerta1{
+font-family: 'arial' cursive;
+text-align: center;
+color: #FF0000;
+font-size: 50px;
+
+}
+
+
+section.TH{
+	text-align: right;
+	display: flex;
+	
+	
+}
+
+section.HD{
+	text-align: center;
+	display: flex;
+}
+
+
+
+.highcharts-figure .chart-container {
+	width: 360px;
+	height: 250px;
+	float: left;
+	margin-top: 10px;
+	margin: auto;
+	text-align-last: center; 
+	word-spacing: 0px;
+	vertical-align: middle;
+
+}
+
+.highcharts-figure, .highcharts-data-table table {
+	width: 430px;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto;
+	text-align-last: center; 
+	word-spacing: 0px;
+	padding-left: 70px /*Puse esto solo para alinear los gauges al centro*/
+	
+
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+	font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+@media (max-width: 60px) {
+	.highcharts-figure, .highcharts-data-table table {
+		width: 100%;
+	}
+	.highcharts-figure .chart-container {
+		width: 300px;
+		float: none;
+		margin: 0 auto;
+	}
+
+}
+
+
+

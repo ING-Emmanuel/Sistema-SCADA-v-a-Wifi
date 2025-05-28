@@ -1,0 +1,23 @@
+*{
+	padding: 1px;
+	margin: 10px;
+}
+
+h1{
+	color: antiquewhite;
+	background-color: dodgerblue;
+	text-align: center;
+}
+
+h2{
+	font-family: 'arial', cursive;
+	padding: 10px 15px;
+	background-color: #0600FD;
+	text-align-last: center; 
+	display: inline-block;
+	margin: auto;
+	vertical-align: middle;
+	margin-top: 200px;
+	
+
+}
